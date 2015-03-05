@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Selenium Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_selenium_tut_questions">Tap to view the answer</string>
+    <string name="title_activity_selenium_tut_answer">answer</string>
+    <string name="title_activity_rest_basic_questions">Tap to view the answer</string>
+    <string name="title_activity_rest_basic_answer">answer</string>
+    <string name="title_activity_selenium_code_questions">Tap to view the answer</string>
+    <string name="title_activity_selenium_code_answer">answer</string>
+    <string name="notes_bar_name">Add Notes</string>
+    <string name="no_notes">No notes to display - Add Now</string>
+    <string name="menu_insert">Add Note</string>
+    <string name="menu_delete">Delete Note</string>
+    <string name="title">Title</string>
+    <string name="body">Body</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit_note">Edit Note</string>
+
+    <string-array name="seleniumBQ">
+        <item>What is an automation testing ?</item>
+        <item>What are the benefits of Automation Testing ?</item>
+        <item>When not to use automation ?</item>
+        <item>What are selenium features ?</item>
+        <item>What are the testing types that can be supported by Selenium ?</item>
+        <item>What are the limitations of Selenium ?</item>
+        <item>What are Selenese commands ?</item>
+        <item>What is difference between assert and verify commands?</item>
+        <item>what is selenium WebDriver ?</item>
+        <item>What are the different types of locators in Selenium WebDriver ?</item>
+        <item>What is selenium WebDriver architecture ?</item>
+        <item>How to identify page source using webDriver ?</item>
+        <item>Advanatges of using selenium webdriver ?</item>
+        <item>Difference between RC and Selenium WebDriver ?</item>
+        <item>Different types of drivers available in WebDriver?</item>
+        <item>What is difference between Implicit and Explicit wait ?</item>
+        <item>What is an Xpath ?</item>
+        <item>Tools to identify Xpath effectively ?</item>
+        <item>What is the difference between “/” and “//” in Xpath?</item>
+        <item>How to locate elements using Xpath ?</item>
+        <item>How to locate elements using CSS ?</item>
+        <item>How to initialize a WebDriver object ?</item>
+        <item>Ways to Locate an element in UI ?</item>
+        <item>How to locate elements using partial matching ?</item>
+        <item>How to check the visibility of an element ?</item>
+        <item>How to write in a textbox ?</item>
+        <item>How to clear a textbox ?</item>
+        <item>Working with radio buttons ?</item>
+        <item>How to get the text of a web element ?</item>
+        <item>How to get the current URL ?</item>
+        <item>Ways to select an option from dropdown ?</item>
+        <item>How to de-select an option from WebDriver ?</item>
+        <item>What are the different types of navigation commands?</item>
+        <item>Open a hyper link using link text ?</item>
+        <item>How to handle frame in WebDriver ?</item>
+        <item>What is the difference between findElement() and findElements() ?</item>
+        <item>What is the difference between driver.close() and driver.quit() ?</item>
+        <item>How to handle pop-up using selenium WebDriver ?</item>
+        <item>How to mouse hover an element using webDriver ?</item>
+        <item>Capture screenshot using WebDriver ?</item>
+        <item>How to do http proxy authentication using selenium WebDriver ?</item>
+        <item>Identify if an element is present – several ways using selenium WebDriver ?</item>
+        <item>Handling multiple windows ?</item>
+        <item>How to simulate user operation for selecting multiple elements ?</item>
+        <item>How to Perform Drag and Drop ?</item>
+        <item>Handling UntrustedSSLcertificates using Seleium WebDriver ?</item>
+        <item>Reading Xpath using Properties file ?</item>
+        <item>What is a firefox profile ?</item>
+        <item>What is desired capabilities ?</item>
+        <item>Download a file using selenium web driver ? </item>
+        <item>How to iterate through a table of elements ?</item>
+        <item>How to execute javascript using WebDriver?</item>
+        <item>What is Page Object Model design in selenium ?</item>
+
+    </string-array>
+
+    <string-array name="seleniumBA">
+
+        <item>In software testing, test automation is the use of test scripts to execute and compare the actual outcomes with predicted outcomes.
+            \n\nThey allow us to regress our products thoroughly with each change and minimal manual intervention.</item>
+
+        <item>Every software development group tests its products, yet delivered software always has defects.
+            \n\nAutomated software testing is the best way to increase the effectiveness, efficiency and coverage of your software testing.
+Automated software testing saves time and money.
+\n\nAutomated software testing increases test coverage( Lengthy tests that are often avoided during manual testing can be run unattended).
+            \n\nAutomated software testing does what manual testing cannot. ( like running a test suite of 1000 scenarios thrice a week).
+\n\nAutomated software testing helps developers and testers. (Shared automated tests can be used by developers too).
+</item>
+
+        <item>It is <b>not</b> always advantageous to automate test cases.
+        \n\nThere are times when manual testing may be more appropriate. For instance, if the application’s user interface will change considerably in the near future, then any automation might need to be rewritten anyway.
+\n\nIf an application has a very tight deadline, there is currently no test automation available, and it’s imperative that the testing get done within that time frame, then generally manual testing is the best solution. </item>
+
+        <item>Supports Cross Browser Testing. The Selenium tests can be run on multiple browsers.
+         \n\nAllows scripting in several languages like Java,Ruby, C#, PHP and Python.
+         \n\nTests developed on one browser can be executed on other supported browsers
+         \n\nAssertion statements provide an efficient way of comparing expected and actual results.
+         \n\nSelenium is platform and browser independent.
+        </item>
+
+
+        <item>The test types supported are:
+\n\n
+1. Functional,\n
+2. Regression,\n
+3. Load testing\n
+
+\nThe automation tool could be implemented for post release validation with continuous integration tools like:
+\n\n1. Jenkins,
+\n2. Hudson,
+\n3. Quick Build
+\n4. CruiseCont</item>
+
+        <item>Selenium Supports only web based applications
+\n\nIt does not support any non web based (Like Win 32, Java Applet, Java Swing, .Net Client Server etc) applications
+\n\nIt is an open source tool so in case of any technical issues you need to rely on the selenium community forums to get your issue resolved.
+\n\nYou need to learn any one of the native language like (.Net, Java, Perl, Python, PHP, Ruby) to work efficiently with the scripting side of selenium
+\n\nNo inbuilt reporting capability so you need plugins like JUnit and TestNG for test reports.
+\n\nLot of challenges with IE browser.</item>
+
+        <item>
+            Selenese or (Selenium set of commands) are categorized into 3 types
+\n\nActions
+\n - Actions refer to the set of commands which are used for performing the operations on the application elements
+\n - For example the actions commands are like • open, click, clickAndWait, select, type …
+
+\n\nAccessors
+\n - Accessors are set of commands, which are used for validating the state of the application element and store the result in a variable
+\n - For Example:
+\n - storeText, storeTextPresent, storeTitle
+
+\n\nAssertions
+\n - Check points or verification points in Selenium are called as Assertions
+\n - For Example:
+\n - verifyText, verifyTextPresent, verifyTitle
+
+\n\nThe Assertions are further classified into 3 types. The check points starts with the keywords:
+\n - Verify
+\n - Assert
+\n - WaitFor
+            </item>
+
+
+        <item>Assert Command
+         \n - When an "assert" command fails then test execution will be aborted
+         \n - Assert is best used when the check value has to pass for the test to be able to continue. Like log in to a system.
+        \n\nVerify Command
+        \n - When a "verify" command fails then test will continue executing and logging the failure.
+        \n - Verify is best used to check not so critical verifications like presence of a title or headline element.</item>
+
+
+        <item>Answer item8</item>
+        <item>Answer item9</item>
+        <item>Answer item10</item>
+        <item>Answer item11</item>
+    </string-array>
+
+
+
+
+
+
+    <string-array name="restBQ">
+        <item>Test Q item1</item>
+        <item>Test Q item2</item>
+        <item>Test a item3</item>
+        <item>Test Q item4</item>
+        <item>Test c item5</item>
+        <item>Test c item6</item>
+        <item>Test r item7</item>
+    </string-array>
+
+    <string-array name="restBA">
+        <item>Answer item1</item>
+        <item>Answer item2</item>
+        <item>Answer item3</item>
+        <item>Answer item4</item>
+        <item>Answer item5</item>
+        <item>Answer item6</item>
+        <item>Answer item7</item>
+    </string-array>
+
+
+
+</resources>
